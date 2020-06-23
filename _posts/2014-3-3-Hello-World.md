@@ -1,10 +1,7 @@
 ---
 layout: post
-title: You're up and running!
+title: My First Blog
 published: true
 ---
 # hi everyone!!!
 ## this is my first blog with jekyll
-
-
-
