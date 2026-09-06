@@ -362,13 +362,13 @@
 
       <div class="proj reveal">
         <div class="proj-ico">📦</div>
-        <h3>VideoMAE v2 — Action Recognition</h3>
-        <p>Fine-tuned <b>VideoMAE v2</b> for warehouse action recognition, detecting improper package handling. Custom pre-training on <b>200K proprietary samples</b> drove a major accuracy jump.</p>
+        <h3>VideoMAE v2 — Video Action Recognition</h3>
+        <p>Fine-tuned <b>VideoMAE v2</b> to understand actions in video across two production use-cases: detecting <b>improper package handling</b> in logistics warehouses (top-1 <b>54% → 86%</b>, 90%+ after pre-training on <b>200K</b> proprietary samples), and a <b>daily cleaning-activity classifier</b> (JSFM) that reviews clips to verify cleaning was completed across the day.</p>
         <div class="metrics">
           <div class="metric"><div class="mn">54→86%</div><div class="ml">Top-1 accuracy</div></div>
           <div class="metric"><div class="mn">200K</div><div class="ml">Pre-train samples</div></div>
         </div>
-        <div class="chips"><span class="chip">VideoMAE v2</span><span class="chip">Self-supervised</span><span class="chip">Fine-tuning</span><span class="chip">PyTorch</span></div>
+        <div class="chips"><span class="chip">VideoMAE v2</span><span class="chip">Video Classification</span><span class="chip">Self-supervised</span><span class="chip">Fine-tuning</span><span class="chip">PyTorch</span></div>
       </div>
 
       <div class="proj reveal">
@@ -402,6 +402,17 @@
           <div class="metric"><div class="mn">5K+</div><div class="ml">Vehicles</div></div>
         </div>
         <div class="chips"><span class="chip">ANPR</span><span class="chip">OCR</span><span class="chip">OpenCV</span><span class="chip">Real-time</span></div>
+      </div>
+
+      <div class="proj reveal">
+        <div class="proj-ico">🔌</div>
+        <h3>Person Detection at Scale — Cloud → Edge</h3>
+        <p>Built and deployed a <b>person-detection model</b> trained on <b>hundreds of thousands of images</b>, now running live on <b>thousands of cameras across India</b> (streamed via the JSM platform). Then took inference to the <b>edge</b> — integrated the <b>Ivideon SDK</b> on the <b>Amlogic A311D2</b> bridge device with a custom <b>Yocto</b> build, load-tested on the reference board, so analytics run <b>on-device</b>, not in the cloud.</p>
+        <div class="metrics">
+          <div class="metric"><div class="mn">1000s</div><div class="ml">Cameras live · India</div></div>
+          <div class="metric"><div class="mn">Edge</div><div class="ml">On-device (A311D2)</div></div>
+        </div>
+        <div class="chips"><span class="chip">Person Detection</span><span class="chip">Amlogic A311D2</span><span class="chip">Yocto</span><span class="chip">Ivideon SDK</span><span class="chip">Edge AI</span><span class="chip">JSM</span></div>
       </div>
 
       <div class="proj reveal">
